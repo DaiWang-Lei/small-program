@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/my/my"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我们",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "FFB6C1",
+    "selectedColor": "#32bee8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index1.png",
+        "selectedIconPath": "/images/index2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/images/my1.png",
+        "selectedIconPath": "/images/my2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
